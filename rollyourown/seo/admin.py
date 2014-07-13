@@ -116,6 +116,7 @@ def get_inline(metadata_class):
         'ct_field': "_content_type",
         'ct_fk_field': "_object_id",
         'formset': MetadataFormset,
+        'suit_classes':'suit-tab suit-tab-seo',
         }
     return type('MetadataInline', (generic.GenericStackedInline,), attrs)
 
